@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Basic - Skull</title>
+    <link rel = "icon" href = "../images/skull.png" type = "image/x-icon">
+	
+	
+	
+</head>
+<body>
+
+    <!----------------------------------------------Header----------------------------------------->
+    
+    <header class="text-gray-500 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <span class="ml-3 text-xl">Basic</span>
+          </a>
+                 <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+
+            <!--<a class="mr-5 hover:text-white" href="definations.html"></a>
+            <a class="modal-open mr-5 hover:text-white" href="##">Hacks</a>-->
+  <button class="bg-transparent border-r-2 border-b-2 border-gray-500 hover:border-indigo-500 text-gray-500 hover:text-indigo-500 font-bold py-2 px-4"><a href="../tools/tools.html">Tools</a></button>			 
+			 
+            <!--<a class="mr-5 hover:text-white" href="setup.html"></a>-->
+          </nav>
+                    <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" ><a href="../index.html">Main page</a>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+    <!---------------------------------------------Blog----------------------------------------------->  
+
+    <section class="text-gray-500 body-font bg-gray-900">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">SUN IS BIGGER THAN MOON :)</h2>
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Basics of Terminal</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">While using Kali or Parrot we should know about some commonly used commands in terminal, because without terminal, hacking does not look like hacking.</p>
+          </div>
+            
+    <!----------------------------------------------------------------------------------------------------------------------->        
+            
+          <div class="flex flex-wrap">
+            
+                
+                
+             
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+              <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ sudo apt-get update && sudo apt-get upgrade</code></h2>
+              <p class="leading-relaxed text-base mb-4">Everyday after opening terminal the first step is to update the packages and configuration files, if we do not do this so chances are there that we had to face ERRORS while running other scripts.</p>
+                
+               <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              </div>  
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+              <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ ping {IP-Address or site URL </code> </h2>
+              <p class="leading-relaxed text-base mb-4">ping (Packet Internet Groper) is the most commonly used tool for troubleshooting a network. Mostly it is used to check that host is up or not. It can also be used to check that you internet service is running or not.</p>
+		    </br>
+		              <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ ping 192.168.0.6</code></p>
+	                  <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ ping google.com</code></p>
+
+  
+		    <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>   
+              </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+              <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ cd {directory}</code></h2>
+              <p class="leading-relaxed text-base mb-4">To open a directory (Folder).</p>
+              </br>
+              <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ cd pages</code></p>
+               <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+            </div>
+            <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+              <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ ls</code></h2>
+              <p class="leading-relaxed text-base mb-4">To list things in a directory (Folder).</p>
+              </br>
+              <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ ls</code></p>
+               <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div> 
+            </div>
+            <div class="flex flex-wrap">
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+                <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ mkdir {directory name}</code></h2>
+                <p class="leading-relaxed text-base mb-4">To make a directory (Folder).</p>
+                </br>
+                <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ mkdir pages</code></p>
+
+                 <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                
+              </div>
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+                <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ cp {file path you want to copy} {directory path where you want to copy}</code></h2>
+                <p class="leading-relaxed text-base mb-4">To copy a file from one directory (Folder) to another.</p>
+                </br>
+                <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ cp /home/skull/Pictures/secret.txt /home/skull/Desktop</code></p>
+                 <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              </div>
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+                <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ mv {file path you want to move} {directory path where you want to paste it}</code></h2>
+                <p class="leading-relaxed text-base mb-4">To move one file from one directory (Folder) to another.</p>
+                </br>
+                <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ mv /home/skull/Pictures/secret.txt /home/skull/Desktop</code></p>
+                 <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              </div>
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+                <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ rm -rf {file or folder name}</code></h2>
+                <p class="leading-relaxed text-base mb-4">To delete or remove a file or directory (Folder).</p>
+                </br>
+                <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ rm -rf pages</code></p>
+                <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ rm -rf secret.txt</code></p>
+                 <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              </div>
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+                <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ sudo ifconfig</code></h2>
+                <p class="leading-relaxed text-base mb-4">To see your network interface configuration.</p>
+                 <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              </div>
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+                <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ iwconfig</code></h2>
+                <p class="leading-relaxed text-base mb-4">It is used to set the parameters of the network interface which are specific to the wireless operation</p>
+                 <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              </div>
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+                <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ git clone {URL}</code></h2>
+                <p class="leading-relaxed text-base mb-4">Github is a web-based platform used for version control. With github we can collaborate with other people on a project and there are many people on github providing wide range of softwares in which pentesting tools are also there. So, to download them on our device we can use command |<code>git clone</code>|</p>
+                </br>
+                <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ git clone https://github.com/rapid7/metasploit-framework </code></p>
+                 <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              </div>
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+                <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ chmod {Permissions} {File-Name}</code></h2>
+                <p class="leading-relaxed text-base mb-4">Command |<code>chmod</code>| is used to manage permissions of file. There are three types of permissions |Read|, |Write|, |Execute|.</p>
+                </br>
+                <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ chmod 777 secret.txt</code> </br> |777 means that anyone can read, write and execute these file. We, should never set these permission.|</p>
+                 <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+              </div>
+
+               <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+                <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ pwd</code></h2>
+                <p class="leading-relaxed text-base mb-4">It prints the directory in which we are. [Print Working Directory]</p>
+                </br>
+                <p class="leading-relaxed text-base mb-4">EXAMPLE :- </br> <code>$ pwd</code>
+                </br>======================
+                </br>OUTPUT :- </br><code>$ /home/skull</code></p>
+                 <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              </div>
+              
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+              <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ touch</code></h2>
+              <p class="leading-relaxed text-base mb-4"><code>touch</code> command is used to create files, this file can be anything.</p>
+              </br>
+              <p class="leading-relaxed text-base mb-4">EXAMPLE :- <code>$ touch mad-skull.txt</code></p>
+              <p class="leading-relaxed text-base mb-4">EXAMPLE :- <code>$ touch robber.zip</code></p>
+
+              <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+              </div>
+              
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+              <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ man {tool name}</code></h2>
+				<p class="leading-relaxed text-base mb-4">man command is a very usefull command, it shows the user-manual of the tool.</p>
+                </br>
+				<p class="leading-relaxed text-base mb-4">EXAMPLE :- <code>$ man ssh</code></p>
+				<div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+				</div>
+              
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+               <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ nano {file name}</code></h2>
+                <p class="leading-relaxed text-base mb-4">Nano is a text editor which is installed by default in linux.</p>
+                 </br>
+                <p class="leading-relaxed text-base mb-4">EXAMPLE :- <code>$ nano mad-skull.txt</code></p>
+               <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+              </div>
+              
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+               <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ sudo su</code></h2>
+                <p class="leading-relaxed text-base mb-4">sudo is commonly used command, which means "superuserdo". This command is used when an operation requires root privieleges.</p>
+                 </br>
+                <p class="leading-relaxed text-base mb-4">EXAMPLE :- <code>$ sudo apt-get update</code></p>
+               <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+              </div>
+              
+              <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+               <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ grep '{word}' {file name}</code></h2>
+                <p class="leading-relaxed text-base mb-4">Find text in a file. The grep command searches through many files at a time to find a piece of text you are looking for.</p>
+                 </br>
+                <p class="leading-relaxed text-base mb-4">EXAMPLE :- <code>$ grep 'non-sense' mad-skull.txt</code></p>
+               <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+              </div>                            
+              
+<div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+  <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ passwd {username}</code></h2>
+  <p class="leading-relaxed text-base mb-4">Command passwd is used to change password of the user.</p>
+  </br>
+  <p class="leading-relaxed text-base mb-4">EXAMPLE :- <code>$ passwd skull</code></p>
+  <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+</div>
+
+<div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+  <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ chown {username} {filename}</code></h2>
+  <p class="leading-relaxed text-base mb-4">This command is used to change the ownership of a file/folder or even multiple files/folders for a specified user/group.</p>
+  </br>
+  <p class="leading-relaxed text-base mb-4">EXAMPLE :- <code>$ chown beast mad-skull.txt</code></p>
+  <p class="leading-relaxed text-base mb-4">EXAMPLE :- <code>$ sudo chown beast robber.txt</code></p>
+  
+  <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+</div>
+
+<div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+  <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ wc {argument} {filename}</code></h2>
+  <p class="leading-relaxed text-base mb-4">This command is used to see file contents like numbers-of-lines, words, bytes, characters.</p>
+  </br>
+  <p class="leading-relaxed text-base mb-4">wc -l : Prints the number of lines in a file. </br> wc -w : prints the number of words in a file. </br> wc -c : Displays the count of bytes in a file. </br> wc -m : prints the count of characters from a file. </br> wc -L : prints only the length of the longest line in a file.</p>
+
+  <p class="leading-relaxed text-base mb-4">EXAMPLE :- <code>$ wc -l mad-skull.txt</code>
+  </br>======================
+  </br>
+  OUTPUT :- <code>453 mad-skull.txt</code>
+  </p>
+  <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+</div>
+
+<div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+  <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ history</code></h2>
+  <p class="leading-relaxed text-base mb-4">It shows the list of our previously used commands.</p>
+  </br>
+  <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+</div>
+
+<div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+  <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ clear</code></h2>
+  <p class="leading-relaxed text-base mb-4">Clears the terminal.</p>
+  </br>
+  <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+</div>
+
+<div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+  <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ poweroff</code></h2>
+  <p class="leading-relaxed text-base mb-4">Shutdown the PC/Laptop from terminal.</p>
+  </br>
+  <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+</div>
+
+<div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
+  <h2 class="text-lg sm:text-xl text-white font-medium title-font mb-2"><code>$ reboot</code></h2>
+  <p class="leading-relaxed text-base mb-4">Restart the PC/Laptop</p>
+  </br>
+  <div class="w-80 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>              
+</div>
+              
+            </div>   
+          </div>
+        </div>
+    </section>
+
+    <!--------------------------------------------Footer------------------------------------------------->
+
+    <footer class="text-gray-500 bg-gray-900 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            
+            <span class="ml-3 text-xl">Hacking = Love</span>
+          </a>
+          <p class="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
+            <a href="https://www.instagram.com/i_am_skull_dot/" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@I_AM_SKULL</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            
+            <a class="ml-3 text-gray-600">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            
+          </span>
+        </div>
+      </footer>
+    
+
+</body>
+</html>
+
