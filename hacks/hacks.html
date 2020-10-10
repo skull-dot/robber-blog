@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link href="../css/broad-img.css" rel="stylesheet">
+
+    <title>Hacks - Skull</title>
+</head>
+<body>
+
+    <!----------------------------------------------Header----------------------------------------->
+    
+   <header class="text-gray-500 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+			<svg fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <span class="ml-3 text-xl">Hacks</span>
+          </a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+            <!--<a class="mr-5 hover:text-white" href="definition.html"></a>
+            <a class="mr-5 hover:text-white" href="##"></a>
+	    <a class="mr-5 hover:text-white" href="setup.html"></a>-->
+  <button class="bg-transparent border-r-2 border-b-2 border-gray-500 hover:border-indigo-500 text-gray-500 hover:text-indigo-500 font-bold py-2 px-4"><a href="../basic/basic.html">Basic</a></button>			 
+  <button class="bg-transparent border-r-2 border-b-2 border-gray-500 hover:border-indigo-500 text-gray-500 hover:text-indigo-500 font-bold py-2 px-4"><a href="../tools/tools.html">Tools</a></button>			 
+
+          </nav>
+          <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" ><a href="../index.html">Main page</a>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+
+    <!---------------------------------------------Blog-----------------------------------------------> 
+
+    <section class="text-gray-500 bg-gray-900 body-font">
+		
+		<div class="group inline-block mb-6">
+  <button class="outline-none focus:outline-none px-3 py-1 bg-gray-900 rounded-sm flex items-center min-w-32">
+    <span class="pr-1 font-semibold flex-1 text-white">Page</span>
+    <span>
+      <svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+      </svg>
+    </span>
+  </button>
+  <ul class="bg-gray-900 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32">
+    <li class=" text-white rounded-sm px-3 py-1 hover:bg-gray-900 text-center"><button><a href="##">{-------------}</a></button></li>
+    <!--<li class=" text-white rounded-sm px-3 py-1 hover:bg-gray-900">##</li>
+    
+    <li class=" text-white rounded-sm px-3 py-1 hover:bg-gray-900">##</li>-->
+  </ul>
+</div>
+
+        <div class="container px-5 py-24 mx-auto">
+            <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1 text-center">NEVER SIT IDLE :}</h2>
+          <h2 class="text-3xl font-medium title-font text-white mb-12 text-center">Hacks</h2>
+          <div class="flex flex-wrap -m-4">
+		  
+		  
+		  
+		  <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-800 p-8 rounded">
+                <h1 class="text-3xl font-medium title-font text-white mb-12 text-center">Termux-Setup</h1>
+                
+                <div class="flex flex-wrap justify-center">
+                    <div class="w-6/12 sm:w-4/12 px-4">
+                        <img src="../images/neofetch.png" alt="neofetch" id="myImg" class="myImages shadow rounded max-w-full h-auto align-middle border-none" />
+                            <div id="myModal" class="modal">
+				            <span class="close">&times;</span>
+				            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                            </div>
+                   </div>
+               </div>
+                
+                                   
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-left">Termux is a terminal emulator with linux enviroment. In termux we can install script and tools execute them in bash and zsh shell, if you don't have a laptop or P.C then also you can perform wide range of tasks through termux.</p>
+
+                </br>
+		 <h1 class="text-1xl font-small title-font text-white text-left"><code>=> Install termux</code></h1>
+                <p class="leading-relaxed mb-6">Termux is available on play-store you can download it from there, but termux will not support 'Android 6' it's support was dropped since '2020.01.01'. So, if you want to use termux then you should have a Android version higher than 6.</p>   
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>=> Setting up storage</code></h1>
+                <p class="leading-relaxed mb-6">after installing it first we need to setup storage. So, for that the command is. </br><code>$ termux-setup-storage</code></p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ apt-get install && apt-get upgrade</code></h1>
+                <p class="leading-relaxed mb-6">This will update repository</p>
+                
+                <h1 class="text-2xl font-small title-font text-white text-center"><code>=> Installing packages <=</code></h1>
+                <p class="leading-relaxed mb-6 text-center mx-auto lg:2/3">For installing packages in termux we can use two commands </br><code>$ pkg install {package name} </br>$ apt-get install {package name}</code></br>and to search packages in database</br><code>$ pkg search {keywords}</code></br> Now we are goint to install some packages.</p>  
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ apt-get install python</code></h1>
+                <p class="leading-relaxed mb-6">This will install latest stable python version on your device.</p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ apt-get install python2</code></h1>
+                <p class="leading-relaxed mb-6">This will install python 2.7.18-3 on your device.</p>
+
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ apt-get install git</code></h1>
+	            <p class="leading-relaxed mb-6">This will install package git which will be used to install tools from github.</p>
+		
+	            <h1 class="text-1xl font-small title-font text-white text-left"><code>$ apt-get install neofetch</code></h1>
+                <p class="leading-relaxed mb-6">By typing <code>$ neofetch</code>some information will be printed on your screen with a cool banner.</p>
+                
+                
+              </div>
+            </div>
+		  
+		  
+		  
+		  
+		  
+	<div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-800 p-8 rounded">
+                <h1 class="text-3xl font-medium title-font text-white mb-12 text-center">Grabcam</h1>
+                
+                <div class="flex flex-wrap justify-center">
+                    <div class="w-6/12 sm:w-4/12 px-4">
+                        <img src="../images/grabcam-blog.png" alt="Grabcam" id="myImg" class="myImages shadow rounded max-w-full h-auto align-middle border-none" />
+                            <div id="myModal" class="modal">
+				            <span class="close">&times;</span>
+				            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                            </div>
+                   </div>
+               </div>
+                
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Grabcam is a shell script which can be used to access victim front camera.</br>[NOTE -:- This will not work for Android 7 or above]</p>
+
+                </br>
+		 <h1 class="text-1xl font-small title-font text-white text-left"><code>$ apt-get install && apt-get upgrade</code></h1>
+                <p class="leading-relaxed mb-6">This will update repository, it is important because sometimes we face errors if the repository are not updated.</p>   
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ pip install lolcat</code></h1>
+                <p class="leading-relaxed mb-6">This command will install pacakage lolcat.</p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ git clone https://github.com/noob-hackers/grabcam</code></h1>
+                <p class="leading-relaxed mb-6">This will clone [Download] the tool on your device for further use.</p>
+                
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ cd grabcam</code></h1>
+                <p class="leading-relaxed mb-6">Enters into the grabcam directory.</p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ bash grabcam.sh</code></h1>
+                <p class="leading-relaxed mb-6">Execute the tool [files ending with .sh extension are been executed by 'bash {file name}' or './{file name}'.</p>
+
+				<h1 class="text-1xl font-small title-font text-white text-left"><code>=> Turning on Hotspot</code></h1>
+                <p class="leading-relaxed mb-6">We are going to use ngrok for port-forwarding and in mobile-device ngrok creates link when hotspot is turned-on and keep the hotspot on until the whole process.</p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>=> Choose option '2' for port-fowarding from ngrok.</code></h1>
+                <p class="leading-relaxed mb-6"></p>
+
+
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>=> Send link to victim</code></h1>
+                <p class="leading-relaxed mb-6"></p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>=> To see captured images</code></h1>
+                <p class="leading-relaxed"><code>$ ctrl-c [stop the tool]</code></p>
+			</br>
+            <p class="leading-relaxed"><code>$ ls</code></p>
+            </br>
+            <p class="leading-relaxed"><code>$ mv {image name with .png} /sdcard</code></p>
+                
+              </div>
+            </div>
+            
+            
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-800 p-8 rounded">
+                <h1 class="text-3xl font-medium title-font text-white mb-12 text-center">ReconDog</h1>
+                
+                <div class="flex flex-wrap justify-center">
+                    <div class="w-6/12 sm:w-4/12 px-4">
+                        <img src="../images/recon-blog.png" alt="ReconDog" id="myImg" class="myImages shadow rounded max-w-full h-auto align-middle border-none" />
+                            <div id="myModal" class="modal">
+				            <span class="close">&times;</span>
+				            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                            </div>
+                   </div>
+               </div>
+                
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">ReconDog is OSINT (Open Source Intelligence) tool, also know as a ' Reconnaissance Swiss Army Knife '. Today we are going to use ReconDog to gather every possible information of an IP-Address.</p>
+
+                </br>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ apt-get update && apt-get upgrade</code></h1>
+                <p class="leading-relaxed mb-6">This will update repository, it is important because sometimes we face errors if the repository are not updated.</p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ apt-get install python</code></h1>
+                <p class="leading-relaxed mb-6">this wil install latest version of python.</p>
+		    
+		<h1 class="text-1xl font-small title-font text-white text-left"><code>$ git clone https://github.com/s0md3v/</br>ReconDog</code></h1>
+                <p class="leading-relaxed mb-6">This will clone [Download] the ReconDog on your device for further use.</p
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ cd ReconDog</code></h1>
+                <p class="leading-relaxed mb-6">Enters into the ReconDog directory</p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ pip install requests</code></h1>
+                <p class="leading-relaxed mb-6">'pip' is the package installer for python, pip will install package requests.</p>
+
+	        <h1 class="text-1xl font-small title-font text-white text-left"><code>$ python dog</code></h1>
+                <p class="leading-relaxed mb-6">This will execute the dog which is a python script.</p>
+	
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>=> ReconDog menu will appear</code></h1>
+                <p class="leading-relaxed mb-6">To gather information choose option '0', and then enter the IP-Address</p>
+                
+                
+			
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-800 p-8 rounded">
+                <h1 class="text-3xl font-medium title-font text-white mb-12 text-center">Tool-X</h1>
+                
+                <div class="flex flex-wrap justify-center">
+                    <div class="w-6/12 sm:w-4/12 px-4">
+                        <img src="../images/toolx-blog.png" alt="Tool-X" id="myImg" class="myImages shadow rounded max-w-full h-auto align-middle border-none" />
+                            <div id="myModal" class="modal">
+				            <span class="close">&times;</span>
+				            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                            </div>
+                   </div>
+               </div>
+                
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Tool-X is a tool to install different tools on Kali-Linux, but now it is available for Termux also. It contains 370+ tools, so you don't have to surf browser for tools and git-clone them.</p>
+
+                </br>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ apt-get update && apt-get upgrade</code></h1>
+                <p class="leading-relaxed mb-6">This command will update the repositories.</p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ git clone https://github.com/rajkumardusad/</br>Tool-X</code></h1>
+                <p class="leading-relaxed mb-6">This will clone [Download] the Tool-X on your device for further use.</p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ cd Tool-X</code></h1>
+                <p class="leading-relaxed mb-6">Enters into the Tool-X directory..</p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>$ chmod +x install</code></h1>
+                <p class="leading-relaxed mb-6">Add the Execute permission to install file.</p>
+
+		        <h1 class="text-1xl font-small title-font text-white text-left"><code>$ bash install</code></h1>
+                <p class="leading-relaxed mb-6">Will run the installation process for Tool-X. [files ending with .sh extension are been executed by 'bash {file name}' or './{file name}' or 'sh {file name}'.</p>
+                
+                <h1 class="text-1xl font-small title-font text-white text-left"><code>=> How to run Tool-X ?</code></h1>
+                <p class="leading-relaxed mb-6">From anywhere in the terminal type 'Tool-X' to execute Tool-X.</p>
+                
+                
+			
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+<div class="group inline-block mb-12">
+  <button class="outline-none focus:outline-none px-3 py-1 bg-gray-900 rounded-sm flex items-center min-w-32">
+    <span class="pr-1 font-semibold flex-1 text-white">Page</span>
+    <span>
+      <svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+      </svg>
+    </span>
+  </button>
+  <ul class="bg-gray-900 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32">
+    <li class=" text-white rounded-sm px-3 py-1 hover:bg-gray-900 text-center"><button><a href="##">2</a></button></li>
+    <!--<li class=" text-white rounded-sm px-3 py-1 hover:bg-gray-900">##</li>
+    
+    <li class=" text-white rounded-sm px-3 py-1 hover:bg-gray-900">##</li>-->
+  </ul>
+</div>
+
+<style>
+  
+  li>ul                 { transform: translatex(100%) scale(0) }
+  li:hover>ul           { transform: translatex(101%) scale(1) }
+  li > button svg       { transform: rotate(-90deg) }
+  li:hover > button svg { transform: rotate(-270deg) }
+
+  .group:hover .group-hover\:scale-100 { transform: scale(1) }
+  .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
+  .scale-0 { transform: scale(0) }
+  .min-w-32 { min-width: 8rem }
+</style>
+
+
+
+
+    </section>
+
+    <!--------------------------------------------------Footer------------------------------------------->
+
+    <footer class="text-gray-500 bg-gray-900 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            
+            <span class="ml-3 text-xl">HACKING = LOVE</span>
+          </a>
+          <p class="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
+            <a href="https://www.instagram.com/i_am_skull_dot/" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@I_AM_SKULL</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            
+            <a class="ml-3 text-gray-600">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            
+          </span>
+        </div>
+    </footer>    
+
+    <script src="../javas/broad-img.js"></script>
+
+</body>
+</html>
